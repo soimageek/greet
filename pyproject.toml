@@ -9,8 +9,12 @@ readme = "README.md"
 greet = "greet.main:app"
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.10"
 typer = {extras = ["all"], version = "^0.6.1"}
+google-cloud-storage = "^2.5.0"
+python-dotenv = "^0.21.0"
+genson = "^1.2.2"
+PyYAML = "^6.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
